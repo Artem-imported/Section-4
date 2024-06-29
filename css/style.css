@@ -1,28 +1,26 @@
-body {
-  font-family: "Segoe UI", Roboto;
+.ITstandarts {
   background: #f6f6f8;
 }
-
-.ITstandarts-section {
+.ITstandarts .ITstandarts__container {
   display: flex;
-  font-family: Arial, sans-serif;
   align-items: center;
-  justify-content: space-around;
-  width: 1920px;
-  height: 797px;
+  flex-direction: column;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
 }
-.ITstandarts-section__block {
+.ITstandarts__block {
   margin-bottom: 90px;
   display: flex;
-  justify-content: space-around;
-  margin-left: 10vh;
-  margin-right: 10vh;
+  justify-content: space-between;
+  align-items: center;
 }
-.ITstandarts-section__info-block {
+.ITstandarts__info-block {
   max-width: 489px;
-  margin-right: auto;
+  width: 100%;
+  margin: 0 auto;
 }
-.ITstandarts-section__title {
+.ITstandarts__title {
   font-weight: 700;
   text-align: left;
   color: #323232;
@@ -31,47 +29,40 @@ body {
   margin-bottom: 60px;
   font-size: 36px;
 }
-.ITstandarts-section__info {
+.ITstandarts__info {
   margin-bottom: 42px;
 }
-.ITstandarts-section__link {
+.ITstandarts__link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   text-decoration-line: underline;
   color: #4985ff;
 }
-.ITstandarts-section__img {
-  width: 500px;
-  height: 400px;
-  display: flex;
+.ITstandarts__img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
 }
-.ITstandarts-section__list {
+.ITstandarts__list {
   display: flex;
   justify-content: space-evenly;
   border-top: 1px solid #e0e0e0;
   padding-top: 70px;
 }
-.ITstandarts-section__svg {
+.ITstandarts__svg {
   width: 30px;
   height: 30px;
   fill: #4985ff;
 }
-.ITstandarts-section__statistics {
+.ITstandarts__statistics {
   font-weight: 400;
   font-size: 36px;
   line-height: 53px;
   color: #000;
 }
-.ITstandarts-section__text {
+.ITstandarts__text {
   color: #999;
-}
-
-.container {
-  width: 100%;
-  position: relative;
-  top: 10%;
-  left: 10%;
 }
 
 div {

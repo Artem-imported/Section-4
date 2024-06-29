@@ -1,33 +1,24 @@
 @import 'adaptive';
-
-body {
-    font-family: 'Segoe UI', Roboto;
+.ITstandarts {
     background: #f6f6f8;
-}
-.ITstandarts-section {
-    // display: block;
-    // margin-top: 50px;
-    // margin-right: 150px;
-    // margin-left: 150px;
-    // height: 797px;
-    // width: 100%;
-    // max-width: 140vh;
-    display: flex;
-    font-family: Arial, sans-serif;
-    align-items: center;
-    justify-content: space-around;
-    width: 1920px;
-    height: 797px;
+    & .ITstandarts__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+    }
     &__block {
         margin-bottom: 90px;
         display: flex;
-        justify-content: space-around;
-        margin-left: 10vh;
-        margin-right: 10vh;
+        justify-content: space-between;
+        align-items: center;
     }
     &__info-block {
         max-width: 489px;
-        margin-right: auto;
+        width: 100%;
+        margin: 0 auto;
     }
     &__title {
         font-weight: 700;
@@ -49,10 +40,9 @@ body {
         color: #4985ff;
     }
     &__img {
-        width: 500px;
-        height: 400px;
-        display: flex;
-        
+        max-width: 500px;
+        width: 100%;
+        height: auto;
     }
     &__list {
         display: flex;
@@ -75,12 +65,6 @@ body {
     &__text {
         color: #999;
     }
-}
-.container {
-    width: 100%;
-    position: relative;
-    top: 10%;
-    left: 10%;
 }
 div {
     display: block;
