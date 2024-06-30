@@ -1,9 +1,10 @@
 @import 'adaptive';
 .ITstandarts {
     background: #f6f6f8;
+    padding-top: 100px;
+    padding-bottom: 70px;
     & .ITstandarts__container {
         display: flex;
-        align-items: center;
         flex-direction: column;
         max-width: 1110px;
         width: 100%;
@@ -18,9 +19,9 @@
     &__info-block {
         max-width: 489px;
         width: 100%;
-        margin: 0 auto;
     }
     &__title {
+        font-family: "Montserrat", sans-serif;
         font-weight: 700;
         text-align: left;
         color: #323232;
@@ -31,8 +32,15 @@
     }
     &__info {
         margin-bottom: 42px;
+        color: #999999;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.36px;
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
     }
     &__link {
+        font-family: "Montserrat", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.25;
@@ -57,12 +65,14 @@
         fill: #4985ff;
     }
     &__statistics {
+        font-family: "Montserrat", sans-serif;
         font-weight: 400;
         font-size: 36px;
         line-height: 53px;
         color: #000;
     }
     &__text {
+        font-family: "Montserrat", sans-serif;
         color: #999;
     }
 }
