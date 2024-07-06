@@ -65,6 +65,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .ITstandarts__info-block {
   max-width: 489px;
@@ -104,6 +106,7 @@
 }
 .ITstandarts__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   border-top: 1px solid #e0e0e0;
   padding-top: 70px;
@@ -123,6 +126,11 @@
 .ITstandarts__text {
   font-family: "Montserrat", sans-serif;
   color: #999;
+}
+.ITstandarts__item {
+  width: 104px;
+  height: 67px;
+  padding: 10px;
 }
 
 div {

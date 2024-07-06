@@ -15,6 +15,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     &__info-block {
         max-width: 489px;
@@ -54,6 +56,7 @@
     }
     &__list {
         display: flex;
+        flex-wrap: wrap;
         -webkit-box-pack: space-evenly;
         justify-content: space-evenly;
         border-top: 1px solid #e0e0e0;
@@ -74,6 +77,11 @@
     &__text {
         font-family: "Montserrat", sans-serif;
         color: #999;
+    }
+    &__item{
+        width: 104px;
+        height: 67px;
+        padding: 10px;
     }
 }
 div {
