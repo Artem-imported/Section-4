@@ -31,21 +31,7 @@
     font-size: 12px;
   }
   .ITstandarts .ITstandarts__text {
-    font-size: 14px;
-  }
-  .ITstandarts .ITstandarts__list {
-    width: 100%;
-    display: flex;
-  }
-  .ITstandarts .ITstandarts__list li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .ITstandarts .ITstandarts__list li p {
-    display: flex;
-    text-align: center;
+    font-size: 12px;
   }
 }
 .ITstandarts {
@@ -130,7 +116,7 @@
 .ITstandarts__item {
   width: 104px;
   height: 67px;
-  padding: 10px;
+  padding: 20px;
 }
 
 div {

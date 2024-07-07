@@ -34,21 +34,7 @@
             font-size: 12px;
         }
         & .ITstandarts__text{
-            font-size: 14px;
-        }
-        & .ITstandarts__list {
-            width: 100%;
-            display: flex;
-            & li{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                & p{
-                    display: flex;
-                    text-align: center;
-                }
-            }
+            font-size: 12px;
         }
     }
 }
